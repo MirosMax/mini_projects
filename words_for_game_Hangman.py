@@ -1,3 +1,5 @@
+# Это список вопросов с ответами для игры Hangman
+
 words_questions = {
     "абстракция": "Форма мышления, выделяющая общие свойства и связи объектов.",
     "гравитация": "Сила, притягивающая тела друг к другу в пространстве.",
@@ -234,8 +236,3 @@ words_questions = {
 
 if __name__ == '__main__':
     print(f'Количество слов для угадывания: {len(words_questions)}')
-    # count_words = 0
-    # for key in words_questions.keys():
-    #     count_words += 1
-    #     print(f'{count_words}. {key}')
-    # print(f'Количество слов для угадывания: {count_words}')

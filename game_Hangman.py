@@ -10,7 +10,7 @@
 '''
 
 import random
-import words_for_game_Hangman as wh
+import words_for_game_Hangman as wh  # список вопросов из соседнего файла
 
 
 # функция получение случайного слова из списка
